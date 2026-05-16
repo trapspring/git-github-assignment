@@ -13,6 +13,7 @@ import (
 //Read the integers from the user input.
 //Compute the sum of the two integers.
 //Display the result to the user.
+//this comment represents a change for GIT
 
 func main() {
 
@@ -22,10 +23,10 @@ func main() {
 
 	scanner := bufio.NewScanner(os.Stdin)
 
-	fmt.Print("Enter the first integer:")
+	fmt.Print("Enter the first integer here:")
 	scanner.Scan()
 	sA = strings.TrimSpace(scanner.Text())
-	fmt.Print("Enter the second integer:")
+	fmt.Print("Enter the second integer here:")
 	scanner.Scan()
 	sB = strings.TrimSpace(scanner.Text())
 
